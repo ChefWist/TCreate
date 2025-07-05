@@ -41,3 +41,26 @@ To use an example such as movement, put this import at the top of your page:
 
 In your main method put this line of code:
 <i>MovementDemo.launch();</i>
+
+<h2>Documentation</h2>
+
+<h3>Other</h3>
+<h4><i>TCreate.displayInfomation()</i></h4>
+Displays current version and creator in the console
+
+<h3>TCreate</h3>
+
+<h4><i>new TCreate()</i></h4>
+Inside the brackets, put the title of the game and then add two whole numbers for the size. This will create a <i>JFrame</i> with the title and size you picked for it. 
+
+<h4><i>TCreate.startGame()</i></h4>
+Starts the game loop
+
+<h4><i>TCreate.changeSceneTo()</i></h4>
+Changes the current scene to the one you have created yourself. To learn more about scenes, go to the section called <i>Scenes</i>.
+
+<h4><i>TCreate.getCurrentGame()</i></h4>
+Returns with the game which <i>extends JPanel</i>. Learn more about this in the section called <i>ScreenPanel</i>.
+
+<h4><i>TCreate.getCurrentScene()</i></h4>
+Returns with the current scene. To learn more about scenes, go to the section called <i>Scenes</i>.
