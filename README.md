@@ -45,8 +45,12 @@ In your main method put this line of code:
 <h2>Documentation</h2>
 
 <h3>Other</h3>
+
 <h4><i>TCreate.displayInfomation()</i></h4>
 Displays current version and creator in the console
+
+<h4><i>ScreenObject</i></h4>
+This is a class which you extend to have an x, y variable and a few function: <i>update()</i>, <i>draw(Graphics2D graphics)</i>, <i>getWorldX()</i> and <i>getWorldY()</i>. By using the code, <i>ScreenObject.setUp()</i>, you can pass in a screenObject, x, y position into the brackets.
 
 <h3>TCreate</h3>
 
@@ -84,3 +88,5 @@ Gets current x or y position of the camera.
 
 <h4><i>Camera.getWorldX(x)</i> or <i>Camera.getWorldY(y)</i></h4>
 Returns a number which tells you where an element should be placed on the screen as the camera moves;
+
+
