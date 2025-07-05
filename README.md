@@ -44,7 +44,7 @@ In your main method put this line of code:
 
 <h2>Documentation</h2>
 
-<h3>Other</h3>
+<h3><u>Other</u></h3>
 
 <h4><i>TCreate.displayInfomation()</i></h4>
 Displays current version and creator in the console
@@ -55,7 +55,7 @@ Extends <i>JPanel</i> and holds all the code for the gameLoop and drawing and up
 <h4><i>ScreenObject</i></h4>
 This is a class which you extend to have an x, y variable and a few function: <i>update()</i>, <i>draw(Graphics2D graphics)</i>, <i>getWorldX()</i> and <i>getWorldY()</i>. By using the code, <i>ScreenObject.setUp()</i>, you can pass in a screenObject, x, y position into the brackets.
 
-<h3>TCreate</h3>
+<h3><u>TCreate</u></h3>
 
 <h4><i>new TCreate(title, width, height)</i></h4>
 Inside the brackets, put the title of the game and then add two whole numbers for the size. This will create a <i>JFrame</i> with the title and size you picked for it. 
@@ -72,7 +72,7 @@ Returns with the game which <i>extends JPanel</i>. Learn more about this in the 
 <h4><i>TCreate.getCurrentScene()</i></h4>
 Returns with the current scene. To learn more about scenes, go to the section called <i>Scenes</i>.
 
-<h3>Camera</h3>
+<h3><u>Camera</u></h3>
 
 <h4><i>Camera.smoothed</i></h4>
 True or False variable which decides if the camera should be smooth when moving.
