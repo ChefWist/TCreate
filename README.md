@@ -49,6 +49,9 @@ In your main method put this line of code:
 <h4><i>TCreate.displayInfomation()</i></h4>
 Displays current version and creator in the console
 
+<h4><i>ScreenPanel</i></h4>
+Extends <i>JPanel</i> and holds all the code for the gameLoop and drawing and updating all elements in the scene.
+
 <h4><i>ScreenObject</i></h4>
 This is a class which you extend to have an x, y variable and a few function: <i>update()</i>, <i>draw(Graphics2D graphics)</i>, <i>getWorldX()</i> and <i>getWorldY()</i>. By using the code, <i>ScreenObject.setUp()</i>, you can pass in a screenObject, x, y position into the brackets.
 
@@ -64,7 +67,7 @@ Starts the game loop
 Changes the current scene to the one you have created yourself. To learn more about scenes, go to the section called <i>Scenes</i>.
 
 <h4><i>TCreate.getCurrentGame()</i></h4>
-Returns with the game which <i>extends JPanel</i>. Learn more about this in the section called <i>ScreenPanel</i>.
+Returns with the game which <i>extends JPanel</i>. Learn more about this in the section called <i>ScreenPanel</i> in the <i>Other</i> section.
 
 <h4><i>TCreate.getCurrentScene()</i></h4>
 Returns with the current scene. To learn more about scenes, go to the section called <i>Scenes</i>.
@@ -88,5 +91,6 @@ Gets current x or y position of the camera.
 
 <h4><i>Camera.getWorldX(x)</i> or <i>Camera.getWorldY(y)</i></h4>
 Returns a number which tells you where an element should be placed on the screen as the camera moves;
+
 
 
