@@ -50,13 +50,13 @@ Displays current version and creator in the console
 
 <h3>TCreate</h3>
 
-<h4><i>new TCreate()</i></h4>
+<h4><i>new TCreate(title, width, height)</i></h4>
 Inside the brackets, put the title of the game and then add two whole numbers for the size. This will create a <i>JFrame</i> with the title and size you picked for it. 
 
 <h4><i>TCreate.startGame()</i></h4>
 Starts the game loop
 
-<h4><i>TCreate.changeSceneTo()</i></h4>
+<h4><i>TCreate.changeSceneTo(scene)</i></h4>
 Changes the current scene to the one you have created yourself. To learn more about scenes, go to the section called <i>Scenes</i>.
 
 <h4><i>TCreate.getCurrentGame()</i></h4>
@@ -64,3 +64,23 @@ Returns with the game which <i>extends JPanel</i>. Learn more about this in the 
 
 <h4><i>TCreate.getCurrentScene()</i></h4>
 Returns with the current scene. To learn more about scenes, go to the section called <i>Scenes</i>.
+
+<h3>Camera</h3>
+
+<h4><i>Camera.smoothed</i></h4>
+True or False variable which decides if the camera should be smooth when moving.
+
+<h4><i>Camera.smoothing_speed</i></h4>
+Whole number which decides how fast the camera smoothing should be. 1 - INSTANT.
+
+<h4><i>Camera.positionTo(x, y)</i></h4>
+2 Whole numbers which snaps the camera to a positon.
+
+<h4><i>Camera.moveTo(x, y)</i></h4>
+2 Whole numbers which uses smoothing to guide the camera to the position you entered in.
+
+<h4><i>Camera.getX()</i> or <i>Camera.getY()</i></h4>
+Gets current x or y position of the camera.
+
+<h4><i>Camera.getWorldX(x)</i> or <i>Camera.getWorldY(y)</i></h4>
+Returns a number which tells you where an element should be placed on the screen as the camera moves;
