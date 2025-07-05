@@ -1,7 +1,7 @@
 # TCreate - Java Game Libary (V0.2)
 
 <h2>Introduction</h2>
-I have made this game libary that you can use to easily make games with java swing.
+I have made this game libary that you can use to easily make games with java swing. You can view TCreate info by using: TCreate.displayInfomation();
 
 <h2>Features</h2>
 <ul>
@@ -30,6 +30,7 @@ To use this, download the folder tCreate. Then drag it into your src folder (whe
   <li>tCreate.*</li>
   <li>tCreate.scene.*</li>
   <li>tCreate.sprite.*</li>
+  <li>tCreate.ui.*</li>
   <li>tCreate.examples.(example).*</li>
 </ul>
 
