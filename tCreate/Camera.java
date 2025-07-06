@@ -12,6 +12,8 @@ public abstract class Camera {
 
 		Camera.x = x;
 		Camera.y = y;
+		targetX = x;
+		targetY = y;
 	}
 
 	public static void moveTo(int x, int y) {

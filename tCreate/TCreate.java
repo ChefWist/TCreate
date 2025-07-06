@@ -6,10 +6,10 @@ import tCreate.scene.*;
 
 public class TCreate {
 	
-	private final static double current_version = 0.2;
+	private final static double current_version = 0.3;
 	private final static String developer = "ChefwistDev";
 	public static void displayInfomation() {
-		System.out.printf("TCreate V%.1f\nIs created by %s\n", current_version, developer);
+		System.out.printf("****************************\nTCreate V%.1f\nDeveloped by %s\n****************************\n", current_version, developer);
 	}
 
 	public JFrame window;
@@ -45,6 +45,8 @@ public class TCreate {
 
 	// SCENES
 	public static void changeSceneTo(Scene scene) {
+		
+		if (scene == null) return;
 
 		for (KeyListener listener : screenPanel.getKeyListeners()) {
 			screenPanel.removeKeyListener(listener);
