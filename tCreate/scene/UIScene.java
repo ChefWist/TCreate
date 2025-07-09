@@ -2,7 +2,6 @@ package tCreate.scene;
 
 import java.awt.event.*;
 import tCreate.*;
-import tCreate.ui.*;
 
 public class UIScene extends Scene implements MouseListener, MouseMotionListener {
 	

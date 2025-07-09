@@ -6,7 +6,7 @@ import tCreate.scene.*;
 
 public class TCreate {
 	
-	private final static double current_version = 0.3;
+	private final static double current_version = 0.4;
 	private final static String developer = "ChefwistDev";
 	public static void displayInfomation() {
 		System.out.printf("****************************\nTCreate V%.1f\nDeveloped by %s\n****************************\n", current_version, developer);
