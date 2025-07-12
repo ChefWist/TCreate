@@ -1,4 +1,4 @@
-# TCreate - Java Game Libary (V0.4)
+# TCreate - Java Game Libary (V0.45)
 
 <h2>Introduction</h2>
 I have made this game libary that you can use to easily make games with java swing. You can view TCreate info by using: TCreate.displayInfomation();
@@ -11,6 +11,7 @@ I have made this game libary that you can use to easily make games with java swi
   <li>Smooth Camera, </li>
   <li>User Interface (UI), </li>
   <li>Dragging, </li>
+  <li>Scaling, </li>
   <li>Easy-to-use AssetManager with images & sounds, </li>
   <li>Examples, and</li>
   <li>Action Listeners! </li>
