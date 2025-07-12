@@ -58,7 +58,7 @@ Displays current version and creator in the console
 Extends <i>JPanel</i> and holds all the code for the gameLoop and drawing and updating all elements in the scene.
 
 <h4><i>ScreenObject</i></h4>
-This is a class which you extend to have an x, y variable and a few function: <i>update()</i>, <i>draw(Graphics2D graphics)</i>, <i>getWorldX()</i> and <i>getWorldY()</i>. By using the code, <i>ScreenObject.setUp()</i>, you can pass in a screenObject, x, y position into the brackets.
+This is a class which you extend to have an x, y variable and a few function: <i>update()</i>, <i>draw(Graphics2D graphics)</i>, <i>getWorldX()</i> and <i>getWorldY()</i>. By using the code, <i>ScreenObject.setUp()</i>, you can pass in a screenObject, x, y position into the brackets. There is also a<i>Double scale</i> variable which you can update and then use with some functions which gives you the scaled variable. A <i>BufferedImage image</i> variable is also created with a function <i>imageRender(Graphics2D g)</i> to use images.
 
 <h3><u>TCreate</u></h3>
 
