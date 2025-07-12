@@ -25,7 +25,7 @@ public class Player extends PhysicsSprite {
 		defaultMovement();
 		
 		// Glides camera to player at centre of screen (- 225)
-		Camera.moveTo(x - 225, y - 225);
+		Camera.moveTo(x - (TCreate.getCurrentGame().getWidth()/2-25), y - (TCreate.getCurrentGame().getHeight()/2-25));
 	}
 	public void draw(Graphics2D graphics) {
 		

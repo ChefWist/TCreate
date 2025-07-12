@@ -12,7 +12,7 @@ public class PhysicsSprite extends Sprite {
 	public double velocityX;
 	public double velocityY;
 	public double speed;
-	public double resistence = 0.8;
+	public double resistence = 0.8; // Higher - Less Smooth
 	
 	public static void setUp(PhysicsSprite a, int x, int y, int width, int height, int speed) {
 		

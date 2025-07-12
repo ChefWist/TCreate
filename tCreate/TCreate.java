@@ -6,10 +6,10 @@ import tCreate.scene.*;
 
 public class TCreate {
 	
-	private final static double current_version = 0.4;
+	private final static double current_version = 0.45;
 	private final static String developer = "ChefwistDev";
 	public static void displayInfomation() {
-		System.out.printf("****************************\nTCreate V%.1f\nDeveloped by %s\n****************************\n", current_version, developer);
+		System.out.printf("****************************\nTCreate V%.2f\nDeveloped by %s\n****************************\n", current_version, developer);
 	}
 
 	public JFrame window;
